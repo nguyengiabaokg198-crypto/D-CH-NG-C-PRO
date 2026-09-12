@@ -1,0 +1,6 @@
+{
+  "name": "APK Decompiler Pro",
+  "description": "Ứng dụng phân tích và decompile APK chuyên nghiệp trên Android với DEX parser, Smali viewer, Java-like decompiler, Resource explorer và terminal tích hợp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

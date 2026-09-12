@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">APK Decompiler Pro</string>
+    <string name="app_tagline">Engine phân tích &amp; Decompile APK chuyên nghiệp</string>
+
+    <!-- Navigation & Common -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_overview">Tổng quan</string>
+    <string name="nav_manifest">Manifest</string>
+    <string name="nav_dex">DEX &amp; Smali</string>
+    <string name="nav_java">Java IR</string>
+    <string name="nav_resources">Tài nguyên</string>
+    <string name="nav_search">Tìm kiếm</string>
+    <string name="nav_terminal">Terminal</string>
+    <string name="nav_export">Xuất file</string>
+    <string name="nav_settings">Cài đặt</string>
+
+    <!-- Home Actions -->
+    <string name="home_pick_file">Chọn tệp APK / AAB / DEX</string>
+    <string name="home_pick_file_sub">Hỗ trợ .apk, .aab, .dex, .jar, .zip</string>
+    <string name="home_load_sample">Mở mẫu APK Demo</string>
+    <string name="home_recent_files">Tệp phân tích gần đây</string>
+    <string name="home_no_recent">Chưa có tệp nào được mở gần đây</string>
+    <string name="home_features_title">Tính năng cốt lõi</string>
+    <string name="home_engine_tag">Tự viết engine 100% Offline</string>
+
+    <!-- Analysis Overview -->
+    <string name="overview_package">Gói ứng dụng</string>
+    <string name="overview_version">Phiên bản</string>
+    <string name="overview_sdk">SDK Hỗ trợ</string>
+    <string name="overview_file_size">Kích thước</string>
+    <string name="overview_sha256">Mã băm SHA-256</string>
+    <string name="overview_dex_count">Số tệp DEX</string>
+    <string name="overview_classes_count">Tổng số Class</string>
+    <string name="overview_methods_count">Tổng số Method</string>
+    <string name="overview_strings_count">Chuỗi String Pool</string>
+    <string name="overview_components">Thành phần ứng dụng</string>
+    <string name="overview_activities">Activities</string>
+    <string name="overview_services">Services</string>
+    <string name="overview_receivers">Broadcast Receivers</string>
+    <string name="overview_providers">Content Providers</string>
+    <string name="overview_signatures">Chứng chỉ chữ ký số (Signatures)</string>
+    <string name="overview_native_libs">Thư viện Native (ABI)</string>
+
+    <!-- Manifest -->
+    <string name="manifest_title">AndroidManifest.xml đã giải mã</string>
+    <string name="manifest_permissions">Quyền truy cập (Permissions)</string>
+    <string name="manifest_filter_components">Lọc thành phần</string>
+    <string name="manifest_raw_xml">Mã nguồn XML</string>
+    <string name="manifest_perm_normal">Bình thường (Normal)</string>
+    <string name="manifest_perm_dangerous">Nguy hiểm (Dangerous)</string>
+    <string name="manifest_perm_signature">Chữ ký hệ thống (Signature)</string>
+    <string name="manifest_perm_unknown">Không xác định</string>
+
+    <!-- DEX & Smali -->
+    <string name="dex_class_list">Danh sách Class</string>
+    <string name="dex_select_class">Chọn một class để phân tích bytecode</string>
+    <string name="dex_smali_code">Mã nguồn Smali</string>
+    <string name="dex_methods">Danh sách Phương thức</string>
+    <string name="dex_fields">Danh sách Trường (Fields)</string>
+    <string name="dex_super_class">Kế thừa từ</string>
+    <string name="dex_search_class_hint">Tìm class, package...</string>
+
+    <!-- Java Decompiler -->
+    <string name="java_decompiled_title">Java-like Reconstructed Source</string>
+    <string name="java_decompiled_disclaimer">Lưu ý: Mã nguồn được tái cấu trúc từ Dalvik Bytecode IR</string>
+    <string name="java_copy_code">Sao chép mã</string>
+    <string name="java_cfg_blocks">Khối điều khiển (CFG Basic Blocks)</string>
+
+    <!-- Resources -->
+    <string name="res_explorer_title">Cây thư mục tài nguyên</string>
+    <string name="res_preview_title">Xem trước tài nguyên</string>
+    <string name="res_string_table">Bảng chuỗi String</string>
+    <string name="res_no_preview">Không hỗ trợ xem trước định dạng này</string>
+
+    <!-- Search -->
+    <string name="search_hint">Tìm class, method, chuỗi, URL, token, regex...</string>
+    <string name="search_options_regex">Biểu thức chính quy (Regex)</string>
+    <string name="search_results_count">Tìm thấy %d kết quả</string>
+    <string name="search_quick_filters">Bộ lọc nhanh:</string>
+    <string name="search_no_results">Không tìm thấy kết quả phù hợp</string>
+
+    <!-- Terminal -->
+    <string name="terminal_title">APK Interactive Terminal</string>
+    <string name="terminal_hint">Nhập lệnh (gõ \'help\' để xem trợ giúp)...</string>
+    <string name="terminal_run">Chạy</string>
+    <string name="terminal_clear">Xóa màn hình</string>
+    <string name="terminal_welcome">APK Decompiler Pro Embedded Terminal v1.0\nNhập \'help\' để xem danh sách lệnh được hỗ trợ.</string>
+
+    <!-- Export -->
+    <string name="export_title">Xuất tệp dự án</string>
+    <string name="export_all">Xuất toàn bộ (All Decompiled Project)</string>
+    <string name="export_smali">Chỉ xuất mã Smali (.smali)</string>
+    <string name="export_java">Chỉ xuất mã Java tái cấu trúc (.java)</string>
+    <string name="export_manifest">Xuất AndroidManifest.xml</string>
+    <string name="export_report">Xuất báo cáo phân tích (.txt / .json)</string>
+    <string name="export_success">Đã xuất thành công vào: %s</string>
+    <string name="export_share">Chia sẻ tệp đã xuất</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Cài đặt ứng dụng</string>
+    <string name="settings_language">Ngôn ngữ giao diện</string>
+    <string name="settings_lang_vi">Tiếng Việt</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_theme">Giao diện</string>
+    <string name="settings_theme_system">Theo hệ thống</string>
+    <string name="settings_theme_dark">Chế độ tối (Dark Mode)</string>
+    <string name="settings_theme_light">Chế độ sáng (Light Mode)</string>
+    <string name="settings_about">Về APK Decompiler Pro</string>
+    <string name="settings_about_desc">Bộ công cụ dịch ngược và kiểm thử ứng dụng Android chuyên sâu chạy trực tiếp trên thiết bị.</string>
+
+    <!-- Common Messages -->
+    <string name="status_loading">Đang tải và phân tích tệp...</string>
+    <string name="status_parsing_dex">Đang giải mã DEX &amp; xây dựng bảng ký hiệu...</string>
+    <string name="status_done">Hoàn thành phân tích</string>
+    <string name="status_error">Lỗi trong quá trình xử lý</string>
+    <string name="btn_close">Đóng</string>
+    <string name="btn_copy">Sao chép</string>
+    <string name="copied_to_clipboard">Đã sao chép vào bộ nhớ tạm</string>
+</resources>

@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">APK Decompiler Pro</string>
+    <string name="app_tagline">Reverse Engineering &amp; Disassembly Studio</string>
+
+    <!-- Navigation & Common -->
+    <string name="nav_home">Home</string>
+    <string name="nav_overview">Overview</string>
+    <string name="nav_manifest">Manifest</string>
+    <string name="nav_dex">DEX &amp; Smali</string>
+    <string name="nav_java">Java IR</string>
+    <string name="nav_resources">Resources</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_terminal">Terminal</string>
+    <string name="nav_export">Export</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Actions -->
+    <string name="home_pick_file">Open APK / AAB / DEX</string>
+    <string name="home_pick_file_sub">Supports .apk, .aab, .dex, .jar, .zip</string>
+    <string name="home_load_sample">Open Demo Sample APK</string>
+    <string name="home_recent_files">Recent Files</string>
+    <string name="home_no_recent">No recent files opened</string>
+    <string name="home_features_title">Core Capabilities</string>
+    <string name="home_engine_tag">100% Offline Custom Engine</string>
+
+    <!-- Analysis Overview -->
+    <string name="overview_package">Package Name</string>
+    <string name="overview_version">Version</string>
+    <string name="overview_sdk">SDK Requirements</string>
+    <string name="overview_file_size">File Size</string>
+    <string name="overview_sha256">SHA-256 Checksum</string>
+    <string name="overview_dex_count">DEX Files</string>
+    <string name="overview_classes_count">Total Classes</string>
+    <string name="overview_methods_count">Total Methods</string>
+    <string name="overview_strings_count">String Pool Items</string>
+    <string name="overview_components">Application Components</string>
+    <string name="overview_activities">Activities</string>
+    <string name="overview_services">Services</string>
+    <string name="overview_receivers">Broadcast Receivers</string>
+    <string name="overview_providers">Content Providers</string>
+    <string name="overview_signatures">Certificates &amp; Signatures</string>
+    <string name="overview_native_libs">Native Libraries (ABI)</string>
+
+    <!-- Manifest -->
+    <string name="manifest_title">Decoded AndroidManifest.xml</string>
+    <string name="manifest_permissions">Permissions</string>
+    <string name="manifest_filter_components">Filter Components</string>
+    <string name="manifest_raw_xml">XML Source</string>
+    <string name="manifest_perm_normal">Normal</string>
+    <string name="manifest_perm_dangerous">Dangerous</string>
+    <string name="manifest_perm_signature">Signature</string>
+    <string name="manifest_perm_unknown">Unknown</string>
+
+    <!-- DEX & Smali -->
+    <string name="dex_class_list">Class List</string>
+    <string name="dex_select_class">Select a class to inspect bytecode</string>
+    <string name="dex_smali_code">Smali Disassembly</string>
+    <string name="dex_methods">Method List</string>
+    <string name="dex_fields">Field List</string>
+    <string name="dex_super_class">Super Class</string>
+    <string name="dex_search_class_hint">Filter class, package...</string>
+
+    <!-- Java Decompiler -->
+    <string name="java_decompiled_title">Java-like Reconstructed Source</string>
+    <string name="java_decompiled_disclaimer">Note: Reconstructed from Dalvik Bytecode IR</string>
+    <string name="java_copy_code">Copy Code</string>
+    <string name="java_cfg_blocks">Control Flow Graph (CFG Blocks)</string>
+
+    <!-- Resources -->
+    <string name="res_explorer_title">Resource Tree Explorer</string>
+    <string name="res_preview_title">Resource Preview</string>
+    <string name="res_string_table">String Table</string>
+    <string name="res_no_preview">Preview not available for this format</string>
+
+    <!-- Search -->
+    <string name="search_hint">Find classes, methods, strings, URLs, tokens...</string>
+    <string name="search_options_regex">Regex Search</string>
+    <string name="search_results_count">Found %d results</string>
+    <string name="search_quick_filters">Quick Filters:</string>
+    <string name="search_no_results">No matching results found</string>
+
+    <!-- Terminal -->
+    <string name="terminal_title">APK Interactive Terminal</string>
+    <string name="terminal_hint">Type a command (type \'help\' for list)...</string>
+    <string name="terminal_run">Run</string>
+    <string name="terminal_clear">Clear</string>
+    <string name="terminal_welcome">APK Decompiler Pro Embedded Terminal v1.0\nType \'help\' to see supported commands.</string>
+
+    <!-- Export -->
+    <string name="export_title">Export Project Artifacts</string>
+    <string name="export_all">Export Everything (Decompiled Project)</string>
+    <string name="export_smali">Export Smali Only (.smali)</string>
+    <string name="export_java">Export Java-like Source (.java)</string>
+    <string name="export_manifest">Export AndroidManifest.xml</string>
+    <string name="export_report">Export Analysis Report (.txt / .json)</string>
+    <string name="export_success">Successfully exported to: %s</string>
+    <string name="export_share">Share Exported File</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Display Language</string>
+    <string name="settings_lang_vi">Tiếng Việt</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_theme">Appearance</string>
+    <string name="settings_theme_system">System Default</string>
+    <string name="settings_theme_dark">Dark Mode</string>
+    <string name="settings_theme_light">Light Mode</string>
+    <string name="settings_about">About APK Decompiler Pro</string>
+    <string name="settings_about_desc">High-performance on-device Android reverse engineering and disassembly toolkit.</string>
+
+    <!-- Common Messages -->
+    <string name="status_loading">Loading and parsing package...</string>
+    <string name="status_parsing_dex">Parsing DEX &amp; building symbol index...</string>
+    <string name="status_done">Analysis complete</string>
+    <string name="status_error">An error occurred during processing</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_copy">Copy</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="app_desc">Autonomous offline Android binary analysis, Dalvik bytecode disassembler, AXML decoder, and embedded interactive reverse engineering terminal.</string>
+    <string name="open_apk">Open APK / AAB / DEX</string>
+    <string name="load_sample_apk">Load Sample Demo APK</string>
+    <string name="recent_files">Recent Files</string>
+    <string name="settings">Settings</string>
+</resources>
